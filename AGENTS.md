@@ -8,7 +8,7 @@ Brief project description.
 <!-- Update these commands for your project -->
 - **Setup**: `uv venv && uv pip install -e .`
 - **Test**: `uv run pytest`
-- **Lint**: `uv run ruff check . && uv run pyright`
+- **Lint**: `uv run ruff check . && uv run basedpyright`
 - **Format**: `uv run ruff format .`
 
 ## Structure
@@ -18,7 +18,7 @@ Brief project description.
 ## Guidelines
 
 **Code quality:**
-- Full type annotations (pyright: 0 errors)
+- Full type annotations (basedpyright: 0 errors)
 - Tests for all functionality
 - ruff for linting and formatting
 
@@ -37,7 +37,7 @@ Work is NOT complete until `git push` succeeds.
 1. **Quality gates** (if code changed):
    ```bash
    uv run pytest
-   uv run ruff check . && uv run pyright
+   uv run ruff check . && uv run basedpyright
    ```
 
 2. **Push**:

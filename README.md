@@ -21,9 +21,9 @@ Project template for Python CLI tools with standardized tooling.
 
 ## Included Configuration
 
-- **Python 3.13+** required
+- **Python 3.14+** required
 - **ruff** for linting and formatting (line-length: 100)
-- **pyright** strict mode for type checking
+- **basedpyright** strict mode for type checking
 - **pytest** with 80% coverage requirement
 - **GitHub Actions CI** on push/PR to main
 
@@ -55,7 +55,7 @@ uv run ruff check .
 uv run ruff format .
 
 # Type check
-uv run pyright
+uv run basedpyright
 ```
 
 ## License
